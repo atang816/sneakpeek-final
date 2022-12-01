@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #415A77;
+  color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  
+}
+
+.login-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px;
+  gap: 10px;
+}
+
+.search-function {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-title {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+.banner {
+  font-size: 50px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-button {
+  appearance: none;
+  background-color: #fafbfc;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+    rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.search-button:hover {
+  background-color: #f3f4f6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.search-button:disabled {
+  background-color: #fafbfc;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959da5;
+  cursor: default;
+}
+
+.search-button:active {
+  background-color: #edeff2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.search-button:focus {
+  outline: 1px transparent;
+}
+
+.search-button:before {
+  display: none;
+}
+
+.search-button:-webkit-details-marker {
+  display: none;
+}
+
+.shoepage-container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.shoepage-header {
+  display: flex;
+  gap: 10px;
+  
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+.divider {
+  margin: 10px 0px;
+}
+
+.shoe-display {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+
+  background-color: #778DA9;
+  border: 2px solid;
+  border-color: black;
+  min-height: 100px;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.shoeg-display {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+
+  background-color: #6f89ab;
+  border: 2px solid;
+  border-color: black;
+  min-height: 100px;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+h3.colorway {
+  margin: 0px;
+  font-size: 20px;
+}
+
+.pricing-container {
+  background-color: white;
+  border: 2px solid;
+  border-color: black;
+  min-height: 100px;
+  margin: 10px;
+  border-radius: 15px;
+}
+img{
+  border-radius: 15px;
+}
+
+.card {
+  min-height: 8rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  margin: 10px;
+  
+}
+.card img {
+  
+    
+    padding: 2rem;
+    left: 0;
+    width: 15rem;
+    height: 15rem;
+    padding-right: 5rem;
+   
+    
+  
+}
+p{
+  color: black;
+}
+.title-container{
+  margin-top: 2rem;
+}
+.wrapper{
+  margin-top: 5rem;
+}
+
+.card p{
+  padding: 1rem;
+}
+
+form {
+  padding-top: 2rem;
+}
+
